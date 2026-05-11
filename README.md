@@ -731,7 +731,7 @@ streamlit run app.py
 
 ---
 
-*Auteur : Système de recommandation Item-Item*  
+*Auteur : Brice GOUDALO*  
 *Technologies : Python, Streamlit, Pandas, NumPy, Scikit-learn*  
 *Dataset : MovieLens, Synthétique*  
 *Niveau : Académique / Professionnel*
