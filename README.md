@@ -2,6 +2,10 @@
 
 Une implémentation complète et professionnelle d'un système de recommandation basé sur le **filtrage collaboratif item-item** avec interface interactive Streamlit.
 
+## 🌐 Application Déployée
+
+**Lien vers l'application :** https://recommandation-system-app-007.streamlit.app/
+
 ## Table des matières
 
 - [Objectifs du projet](#-objectifs-du-projet)
