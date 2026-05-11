@@ -98,18 +98,6 @@ tp1/
 - **Connexion internet** (pour télécharger MovieLens)
 - **2GB+ RAM** (recommandé pour MovieLens)
 
-### Installation rapide
-
-```bash
-# Navigation vers le projet
-cd /home/harley/Documents/big_data/tp1
-
-# Installation des dépendances
-pip install -r requirements.txt
-
-# Lancement de l'application
-streamlit run app.py
-```
 
 ## Étapes de démarrage détaillées
 
@@ -152,11 +140,11 @@ pip install requests
 # Créer un environnement virtuel
 python3 -m venv .venv
 
-# Activer l'environnement
-# Sur Linux/Mac :
+# Activer l'environnement sur Linux/Mac :
 source .venv/bin/activate
-# Sur Windows :
-# .venv\Scripts\activate
+
+# Activer l'environnement sur Windows :
+.venv\Scripts\activate
 
 # Installer les dépendances
 pip install -r requirements.txt
@@ -730,7 +718,8 @@ Ce projet démontre une implémentation **complète et professionnelle** d'un sy
 ### Quick Start (résumé)
 
 ```bash
-cd /home/harley/Documents/big_data/tp1
+cd recommandation-system-streamlit/
+python -m venv .venv
 pip install -r requirements.txt
 streamlit run app.py
 # Ouvrir http://localhost:8501
